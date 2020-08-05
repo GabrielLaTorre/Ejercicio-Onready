@@ -1,5 +1,5 @@
-const formatearNros = require('../utils');
 const Vehiculo = require('./Vehiculo');
+const { formatearNros } = require('../utils');
 
 class Moto extends Vehiculo {
     constructor(marca, modelo, precio, cilindradas){
